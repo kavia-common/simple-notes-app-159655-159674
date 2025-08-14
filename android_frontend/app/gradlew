@@ -1,0 +1,5 @@
+#!/bin/sh
+# Delegates Gradle wrapper calls to the android_frontend module wrapper.
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+cd "$SCRIPT_DIR/.." || exit 1
+exec ./gradlew "$@"

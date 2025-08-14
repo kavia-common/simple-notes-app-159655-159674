@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="Sample Title" />
+
+        <TextView
+            android:id="@+id/noteContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="#666666"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="Sample content preview..." />
+
+        <TextView
+            android:id="@+id/noteDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="#999999"
+            android:text="Jan 1, 12:00" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

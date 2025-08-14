@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simple Notes</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search notes...</string>
+    <string name="add_note">Add note</string>
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="title_hint">Title</string>
+    <string name="content_hint">Write your note here…</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="error_title_required">Title is required</string>
+</resources>
